@@ -1,4 +1,0 @@
-python-vinapi
-=============
-
-python-vinapi
