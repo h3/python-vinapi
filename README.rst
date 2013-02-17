@@ -26,6 +26,7 @@ Checking your account status:
 Get summary for a VIN:
 
 .. code-block:: python
+
     vin.find("1GKEV13728J123735", complete=False)
     {u'body-style': u'SPORT UTILITY 4-DR',
      u'country': u'UNITED STATES',
@@ -39,6 +40,7 @@ Get summary for a VIN:
 Get complete information for a VIN:
 
 .. code-block:: python
+
     vin.find("1GKEV13728J123735")
 
     {u'abs-brakes': u'Standard',
